@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAE,OACA;EACE,OAAO,EAAE,UAAU;;AAGvB,OACA;EACC,gBAAgB,EAAE,IAAI;EACtB,OAAO,EAAE,KAAK",
+"sources": ["assign.scss"],
+"names": [],
+"file": "assign.css"
+}
