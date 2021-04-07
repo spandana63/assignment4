@@ -43,7 +43,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	background-color: cyan;
 	position: relative;
 	padding: 215px 0px 215px 0px;
@@ -55,45 +54,99 @@
 	z-index: 2;
 	padding: 188px 500px 188px 500px;
 }
-.coffee, .chat, .text
+
+.text
 {
 	position: absolute;
 	z-index: 3;
+	top: 20%;
+    left: 27%;
+}
+.coffee
+{
+	position: absolute;
+	z-index: 3;
+    bottom: 10%;
+    left: 45%;
 }
 
+.chat
+{
+	position: absolute;
+	z-index: 3;
+	bottom: 10%;
+    left: 60.5%;
+    height: 358px;
+}
 .content
 {
 	background-color: #F0F0F0;
 	padding: 80px;
 }
-// .icon-small i{
 
-//   border-radius: 10%;
-//   text-align: center;
-//   vertical-align: middle;
-//   padding-top: 12px;
-// }
-// .icon-small {
-//     position: relative;
-//     i {
-//     padding: 10px;
-//     position: absolute;
-//     left: 0;
-//     top: 0;
-//     background-color: #00CCFF;
-//     color: white;
-// 	}
-// 	h6
-// 	{
-// 	padding-left: 50px;
-// 	font-weight: bold;
-// 	margin-top: 10px;
-// 	}
-// }
-// 	p
-// 	{
-// 	padding-top: 20px;
-// 	font-size: 14px;
-// 	}
+@media (max-width: 1400px)
+{
+.text
+{
+	position: absolute;
+	z-index: 3;
+	top: 20%;
+    left: 20%;
+}
+.coffee
+{
+	position: absolute;
+	z-index: 3;
+    bottom: 10%;
+    left: 45%;
+}
+
+.chat
+{
+	position: absolute;
+	z-index: 3;
+	bottom: 10%;
+    left: 64.5%;
+    height: 358px;
+}
+
+}
+
+
+
+
+
+
+
+
+.icon-small i{
+
+  border-radius: 10%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 12px;
+}
+.icon-small {
+    position: relative;
+    i {
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #00CCFF;
+    color: white;
+	}
+	h6
+	{
+	padding-left: 50px;
+	font-weight: bold;
+	margin-top: 10px;
+	}
+}
+	p
+	{
+	padding-top: 20px;
+	font-size: 14px;
+	}
 
 
