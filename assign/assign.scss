@@ -1,47 +1,99 @@
-  .navbar
-  { 
-    padding: 30px 130px;
+   html
+  {
+    font-size: 16px;
+    overflow-x: hidden;
   }
+  body
+  {
+     overflow-x: hidden;
+  }
+
+
+ .navbar
+{ 
+	height: 120px;
+	display: flex;
+	justify-content: space-around;
+.navbar-brand
+{
+	font-size: 3.5rem;
+	padding-left: 200px;
+	font-weight: bold;
+}
+.lite
+{
+	color: #00CCFF;
+}
+}
+.collapse
+{
+	padding-right: 217px;
+	a
+	{
+		display: inline-block;
+		font-weight: bold;
+		font-size: 1.25rem;
+	}
+}
+.dropdown-item:hover 
+{color: white;}
 
 #banner
 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 	background-color: cyan;
-	padding: 160px;
+	position: relative;
+	padding: 215px 0px 215px 0px;
 }
+.banner-child
+{
+	background-color: #FF5D33;
+	position: absolute;
+	z-index: 2;
+	padding: 188px 500px 188px 500px;
+}
+.coffee, .chat, .text
+{
+	position: absolute;
+	z-index: 3;
+}
+
 .content
 {
 	background-color: #F0F0F0;
 	padding: 80px;
 }
-.icon-small i{
+// .icon-small i{
 
-  border-radius: 10%;
-  text-align: center;
-  vertical-align: middle;
-  padding-top: 12px;
-
-}
-.icon-small {
-    position: relative;
-    i {
-    padding: 10px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #00CCFF;
-    color: white;
-	}
-	h6
-	{
-	padding-left: 50px;
-	font-weight: bold;
-	margin-top: 10px;
-	}
-}
-	p
-	{
-	padding-top: 20px;
-	font-size: 14px;
-	}
+//   border-radius: 10%;
+//   text-align: center;
+//   vertical-align: middle;
+//   padding-top: 12px;
+// }
+// .icon-small {
+//     position: relative;
+//     i {
+//     padding: 10px;
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     background-color: #00CCFF;
+//     color: white;
+// 	}
+// 	h6
+// 	{
+// 	padding-left: 50px;
+// 	font-weight: bold;
+// 	margin-top: 10px;
+// 	}
+// }
+// 	p
+// 	{
+// 	padding-top: 20px;
+// 	font-size: 14px;
+// 	}
 
 
