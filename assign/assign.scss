@@ -81,7 +81,7 @@
 .content
 {
 	background-color: #F0F0F0;
-	padding: 80px;
+	padding: 80px 200px;
 }
 
 @media (max-width: 1400px)
@@ -91,45 +91,85 @@
 	position: absolute;
 	z-index: 3;
 	top: 20%;
-    left: 20%;
+    left: 5%;
 }
 .coffee
 {
 	position: absolute;
 	z-index: 3;
-    bottom: 10%;
-    left: 45%;
+    bottom: 5%;
+    left: 40%;
 }
 
 .chat
 {
 	position: absolute;
 	z-index: 3;
-	bottom: 10%;
-    left: 64.5%;
+	bottom: 0%;
+    right: 0%;
     height: 358px;
 }
+}
 
+.latest-works
+{
+	padding: 30px 0px;
+}
+
+.pointer
+{
+	color: #00CCFF;
+	padding-right: 20px;
+}
+
+.geo
+{
+	position: relative;
+	width: 100%;
+}
+.img-fluid
+{
+	height: 100%;
+}
+.geo-bg
+{
+	position: absolute;
+	bottom: 0;
+	width: 90%;
+    height: 40%;
+    z-index: 2;
+}
+.preview
+{
+	position: absolute;
+	z-index: 3;
+	bottom: 13%;
+    left: 30%;
+}
+.link
+{
+	position: absolute;
+	z-index: 3;
+	bottom: 13%;
+    right: 30%;
 }
 
 
-
-
-
-
-
-
+	
 .icon-small i{
 
-  border-radius: 10%;
+  border-radius: 50%;
   text-align: center;
   vertical-align: middle;
-  padding-top: 12px;
+  width: 45px;
+  height: 45px;
+  padding: 12px;
+
 }
 .icon-small {
     position: relative;
     i {
-    padding: 10px;
+    // padding: 10px;
     position: absolute;
     left: 0;
     top: 0;
@@ -146,7 +186,7 @@
 	p
 	{
 	padding-top: 20px;
-	font-size: 14px;
+	font-size: 16px;
 	}
 
 
