@@ -44,19 +44,19 @@ body {
   position: absolute;
   z-index: 3;
   top: 20%;
-  left: 27%; }
+  left: 5%; }
 
 .coffee {
   position: absolute;
   z-index: 3;
-  bottom: 10%;
-  left: 45%; }
+  bottom: 5%;
+  left: 40%; }
 
 .chat {
   position: absolute;
   z-index: 3;
-  bottom: 10%;
-  left: 60.5%;
+  bottom: 0%;
+  right: 0%;
   height: 358px; }
 
 .content {
