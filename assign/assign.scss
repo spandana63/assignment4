@@ -1,12 +1,12 @@
-   html
-  {
-    font-size: 16px;
-    overflow-x: hidden;
-  }
-  body
-  {
-     overflow-x: hidden;
-  }
+html
+{
+font-size: 16px;
+overflow-x: hidden;
+}
+body
+{
+ overflow-x: hidden;
+}
 
 
  .navbar
@@ -116,21 +116,43 @@
 	padding: 30px 0px;
 }
 
-.pointer
+// change to just i
+.fa-mouse-pointer, .fa-comment-dots, .fa-user-friends, 
 {
 	color: #00CCFF;
 	padding-right: 20px;
 }
 
+
+.img-fluid
+{
+	height: 100%;
+}
+
+.logobg
+{
+	width: 100%;
+	position: relative;
+}
+.logo
+{
+	position: absolute;
+	top: 22%;
+    left: 22%;
+}
+.logos
+{
+    position: absolute;
+    top: 28%;
+    left: 15%;
+
+}
 .geo
 {
 	position: relative;
 	width: 100%;
 }
-.img-fluid
-{
-	height: 100%;
-}
+
 .geo-bg
 {
 	position: absolute;
@@ -188,5 +210,4 @@
 	padding-top: 20px;
 	font-size: 16px;
 	}
-
 
