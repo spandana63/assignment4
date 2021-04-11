@@ -1,0 +1,150 @@
+h6 {
+  font-weight: bold; }
+
+.social {
+  padding-top: 20px;
+  padding-bottom: 19px; }
+
+.phone {
+  padding-top: 0px; }
+
+ul.no-bullets {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin-top: 30px;
+  /* Remove margins */ }
+  ul.no-bullets li {
+    padding-bottom: 10px; }
+
+.footer-section {
+  padding-top: 34px;
+  background-color: #e5e4e2; }
+
+.copyright {
+  padding: 38px 0px 48px 0px; }
+
+html {
+  font-size: 16px;
+  overflow-x: hidden; }
+
+body {
+  overflow-x: hidden; }
+
+.navbar {
+  padding: 40px 200px; }
+  .navbar .collapse a {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.25rem; }
+  .navbar .dropdown-item:hover {
+    color: #00CCFF; }
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  position: relative;
+  padding: 215px 0px 215px 0px; }
+  #banner .banner-child {
+    background-color: #FF5D33;
+    position: absolute;
+    z-index: 2;
+    padding: 188px 500px 188px 500px; }
+  #banner .text {
+    position: absolute;
+    z-index: 3;
+    top: 20%;
+    left: 5%; }
+  #banner .coffee {
+    position: absolute;
+    z-index: 3;
+    bottom: 5%;
+    left: 40%; }
+  #banner .chat {
+    position: absolute;
+    z-index: 3;
+    bottom: 0%;
+    right: 0%;
+    height: 358px; }
+
+.content {
+  background-color: #F0F0F0;
+  padding: 80px 200px; }
+  .content i {
+    background-color: #00CCFF;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    margin-right: 15px; }
+
+.latest-works {
+  padding: 30px 0px; }
+  .latest-works .geo {
+    position: relative;
+    width: 100%; }
+  .latest-works .geo-bg {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 40%;
+    z-index: 2; }
+  .latest-works .preview {
+    position: absolute;
+    z-index: 3;
+    bottom: 13%;
+    left: 30%; }
+  .latest-works .link {
+    position: absolute;
+    z-index: 3;
+    bottom: 13%;
+    left: 60%; }
+
+.fa-mouse-pointer, .fa-comment-dots, .fa-user-friends {
+  color: #00CCFF;
+  padding-right: 20px; }
+
+.img-fluid {
+  height: 100%; }
+
+.testimonials h6 {
+  margin-bottom: 20px; }
+.testimonials .logobg {
+  width: 100%;
+  position: relative; }
+.testimonials .logo {
+  position: absolute;
+  top: 22%;
+  left: 22%; }
+.testimonials .logos {
+  position: absolute;
+  top: 28%;
+  left: 15%; }
+
+.download-section {
+  padding: 42px 0px 40px 0px; }
+  .download-section .container {
+    background-color: #CCFFFF;
+    border: solid 1px #00CCFF; }
+  .download-section .download-bg {
+    padding: 38px 40px 35px 32px; }
+  .download-section .fa-download {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    color: white; }
+  .download-section .download-btn {
+    background-color: #33CCFF;
+    padding: 24px 20px 22px 72px;
+    font-weight: bold;
+    font-size: 1.125rem;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: solid 0px #33CCFF; }
+
+/*# sourceMappingURL=assign.css.map */

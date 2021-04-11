@@ -1,0 +1,28 @@
+h6 {
+  font-weight: bold; }
+
+.social {
+  padding-top: 20px;
+  padding-bottom: 19px; }
+
+.phone {
+  padding-top: 0px; }
+
+ul.no-bullets {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin-top: 30px;
+  /* Remove margins */ }
+  ul.no-bullets li {
+    padding-bottom: 10px; }
+
+.footer-section {
+  padding-top: 34px;
+  background-color: #e5e4e2; }
+
+.copyright {
+  padding: 38px 0px 48px 0px; }
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,195 @@
+@import "footer";
+
+html
+  {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+body
+  {
+     overflow-x: hidden;
+  }
+
+
+ .navbar
+{ 
+	padding: 40px 200px;
+	.collapse a
+	{
+		display: inline-block;
+		font-weight: bold;
+		font-size: 1.25rem;
+	}
+	.dropdown-item:hover 
+	{
+		color: #00CCFF;
+	}
+}
+
+
+
+#banner
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: cyan;
+	position: relative;
+	//should i add image instead of background
+	padding: 215px 0px 215px 0px;
+	.banner-child
+	{
+		background-color: #FF5D33;
+		position: absolute;
+		z-index: 2;
+		padding: 188px 500px 188px 500px;
+	}
+	.text
+	{
+		position: absolute;
+		z-index: 3;
+		top: 20%;
+	    left: 5%;
+	}
+	.coffee
+	{
+		position: absolute;
+		z-index: 3;
+	    bottom: 5%;
+	    left: 40%;
+	}
+
+	.chat
+	{
+		position: absolute;
+		z-index: 3;
+		bottom: 0%;
+	    right: 0%;
+	    height: 358px;
+	}
+}
+
+
+.content
+{
+	background-color: #F0F0F0;
+	padding: 80px 200px;
+	i
+	{
+	    background-color: #00CCFF;
+	    color: white;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		height: 45px;
+		padding: 15px;
+		margin-right: 15px;
+	}
+}
+
+
+.latest-works
+{
+	padding: 30px 0px;
+	.geo
+	{
+		position: relative;
+		width: 100%;
+	}
+	.geo-bg
+	{
+		position: absolute;
+		bottom: 0;
+		width: 90%;
+	    height: 40%;
+	    z-index: 2;
+	}
+	.preview, 
+	{
+		position: absolute;
+		z-index: 3;
+		bottom: 13%;
+	    left: 30%;
+	}
+	.link
+	{
+		position: absolute;
+		z-index: 3;
+		bottom: 13%;
+	    left: 60%;
+	}
+}
+
+
+.fa-mouse-pointer, .fa-comment-dots, .fa-user-friends, 
+{
+	color: #00CCFF;
+	padding-right: 20px;
+}
+
+//dont over write bootstrap classes
+
+.img-fluid
+{
+	height: 100%;
+}
+
+.testimonials
+{
+	h6
+	{
+		margin-bottom: 20px;
+	}
+	.logobg
+	{
+		width: 100%;
+		position: relative;
+	}
+	.logo
+	{
+		position: absolute;
+		top: 22%;
+	    left: 22%;
+	}
+	.logos
+	{
+	    position: absolute;
+	    top: 28%;
+	    left: 15%;
+	}
+
+}
+
+.download-section
+{
+	padding: 42px 0px 40px 0px;
+	.container
+	{
+		background-color: #CCFFFF;
+		border: solid 1px #00CCFF;;
+	}
+	.download-bg
+	{
+		padding: 38px 40px 35px 32px;
+	}
+	.fa-download
+	{
+		position: absolute;
+		top: 40%;
+		left: 12%;
+		color: white;
+	}
+	.download-btn
+	{
+		background-color: #33CCFF;
+		padding: 24px 20px 22px 72px;
+		font-weight: bold;
+		font-size: 1.125rem;
+	    border-radius: 8px;
+	    margin-top: 30px;
+	    border: solid 0px #33CCFF;
+	}
+
+}
+
+
