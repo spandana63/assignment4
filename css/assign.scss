@@ -17,7 +17,6 @@ body
 	.collapse a
 	{
 		display: inline-block;
-		font-weight: bold;
 		font-size: 1.25rem;
 	}
 	.dropdown-item:hover 
@@ -83,7 +82,7 @@ body
 		width: 45px;
 		height: 45px;
 		padding: 15px;
-		margin-right: 15px;
+		
 	}
 }
 
@@ -91,10 +90,11 @@ body
 .latest-works
 {
 	padding: 30px 0px;
-	.geo
+	.geo, .notes, .lemon, .arrow
 	{
 		position: relative;
 		width: 100%;
+		height: 100%;
 	}
 	.geo-bg
 	{
@@ -129,9 +129,10 @@ body
 
 //dont over write bootstrap classes
 
-.img-fluid
+.latest-works .row
 {
-	height: 100%;
+	display: flex;
+
 }
 
 .testimonials
@@ -192,4 +193,18 @@ body
 
 }
 
-
+@media (max-width: 1024px)
+{
+	.navbar
+	{
+		padding:20px;
+	}
+	.content
+	{
+		padding:10px;
+	}
+	.geo, .notes, .lemon, .arrow
+	{
+		padding: 10px;
+	}
+}
