@@ -32,3 +32,24 @@ ul.no-bullets {
 {
 	padding: 38px 0px 48px 0px;
 }	
+
+
+.footer-links-wrapper
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px 15px;
+}
+
+@media (max-width: 1024px)
+{
+	.footer-links-wrapper
+	{
+		p
+		{
+			font-size: 12px;
+			padding-top: 20px;
+		}
+	}
+}
