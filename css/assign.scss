@@ -149,14 +149,18 @@ body
 	.logo
 	{
 		position: absolute;
-		top: 22%;
-	    left: 22%;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -30px;
 	}
 	.logos
 	{
 	    position: absolute;
-	    top: 28%;
-	    left: 15%;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -30px;
 	}
 
 }
@@ -173,12 +177,18 @@ body
 	{
 		padding: 38px 40px 35px 32px;
 	}
+	.download-link
+	{
+		position: relative;
+	}
 	.fa-download
 	{
-		position: absolute;
-		top: 40%;
-		left: 12%;
-		color: white;
+	    position: absolute;
+	    top: 50%;
+	    margin-top: -10px;
+	    left: 50%;
+	    color: white;
+	    margin-left: -80px;
 	}
 	.download-btn
 	{
@@ -206,5 +216,9 @@ body
 	.geo, .notes, .lemon, .arrow
 	{
 		padding: 10px;
+	}
+	.download-section .download-btn
+	{
+		margin: 0px 0px 20px 30px;
 	}
 }
