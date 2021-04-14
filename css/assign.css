@@ -126,8 +126,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -50px;
-  margin-top: -30px; }
+  margin-left: -70px;
+  margin-top: -20px; }
 
 .download-section {
   padding: 42px 0px 40px 0px; }
@@ -165,6 +165,21 @@ body {
     padding: 10px; }
 
   .download-section .download-btn {
-    margin: 0px 0px 20px 30px; } }
+    margin: 0px 0px 20px 30px; }
+
+  .geo-bg {
+    position: absolute;
+    bottom: 0;
+    width: 94%;
+    height: 40%;
+    z-index: 2;
+    left: 3%; }
+
+  .preview, .link {
+    position: absolute;
+    z-index: 3;
+    bottom: 13%;
+    width: 12%;
+    left: 30%; } }
 
 /*# sourceMappingURL=assign.css.map */
