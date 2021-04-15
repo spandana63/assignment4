@@ -19,7 +19,7 @@ ul.no-bullets {
     padding-bottom: 10px; }
 
 .footer-section {
-  padding-top: 34px;
+  padding: 34px 0px;
   background-color: #e5e4e2; }
 
 .copyright {
@@ -34,6 +34,9 @@ ul.no-bullets {
 @media (max-width: 1024px) {
   .footer-links-wrapper p {
     font-size: 12px;
-    padding-top: 20px; } }
+    padding-top: 20px; }
+
+  .end-logo {
+    display: none; } }
 
 /*# sourceMappingURL=footer.css.map */

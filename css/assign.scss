@@ -34,7 +34,6 @@ body
 	align-items: center;
 	background-color: cyan;
 	position: relative;
-	//should i add image instead of background
 	padding: 215px 0px 215px 0px;
 	.banner-child
 	{
@@ -82,11 +81,9 @@ body
 		width: 45px;
 		height: 45px;
 		padding: 15px;
-		margin-right: 19px;
-		
+		margin-right: 7px;		
 	}
 }
-
 
 .latest-works
 {
@@ -120,7 +117,6 @@ body
 	    left: 60%;
 	}
 }
-
 
 .fa-mouse-pointer, .fa-comment-dots, .fa-user-friends, 
 {
@@ -238,5 +234,23 @@ body
     bottom: 13%;
     width: 12%;
     left: 30%;
+	}
+	.testimonials .logos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -10px;
+    width: 90%;}
+}
+
+@media (max-width: 1000px) and (min-width: 450px) {
+	.testimonials .logos{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-left: -30px;
+    margin-top: -30px;
+    width: 90%;
 	}
 }

@@ -19,7 +19,7 @@ ul.no-bullets {
     padding-bottom: 10px; }
 
 .footer-section {
-  padding-top: 34px;
+  padding: 34px 0px;
   background-color: #e5e4e2; }
 
 .copyright {
@@ -34,7 +34,10 @@ ul.no-bullets {
 @media (max-width: 1024px) {
   .footer-links-wrapper p {
     font-size: 12px;
-    padding-top: 20px; } }
+    padding-top: 20px; }
+
+  .end-logo {
+    display: none; } }
 html {
   font-size: 16px;
   overflow-x: hidden; }
@@ -90,7 +93,7 @@ body {
     width: 45px;
     height: 45px;
     padding: 15px;
-    margin-right: 19px; }
+    margin-right: 7px; }
 
 .latest-works {
   padding: 30px 0px; }
@@ -191,6 +194,22 @@ body {
     z-index: 3;
     bottom: 13%;
     width: 12%;
-    left: 30%; } }
+    left: 30%; }
+
+  .testimonials .logos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -10px;
+    width: 90%; } }
+@media (max-width: 1000px) and (min-width: 450px) {
+  .testimonials .logos {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-left: -30px;
+    margin-top: -30px;
+    width: 90%; } }
 
 /*# sourceMappingURL=assign.css.map */

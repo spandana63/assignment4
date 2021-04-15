@@ -24,7 +24,7 @@ ul.no-bullets {
 
 .footer-section
 {
-	padding-top: 34px;
+	padding: 34px 0px;
 	background-color: #e5e4e2;
 }
 
@@ -51,5 +51,9 @@ ul.no-bullets {
 			font-size: 12px;
 			padding-top: 20px;
 		}
+	}
+	.end-logo
+	{
+		display: none;
 	}
 }
