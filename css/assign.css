@@ -165,7 +165,6 @@ body {
     font-weight: bold;
     font-size: 1.125rem;
     border-radius: 8px;
-    margin-top: 30px;
     border: solid 0px #33CCFF; }
 
 @media (max-width: 1024px) {
@@ -179,7 +178,7 @@ body {
     padding: 10px; }
 
   .download-section .download-btn {
-    margin: 0px 0px 20px 30px; }
+    margin-bottom: 20px; }
 
   .geo-bg {
     position: absolute;
@@ -205,11 +204,10 @@ body {
     width: 90%; } }
 @media (max-width: 1000px) and (min-width: 450px) {
   .testimonials .logos {
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    margin-left: -30px;
-    margin-top: -30px;
-    width: 90%; } }
+    margin-left: -95px;
+    margin-top: -30px; }
+
+  .latest-works .geo-bg {
+    width: 94%; } }
 
 /*# sourceMappingURL=assign.css.map */
