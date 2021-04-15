@@ -1,0 +1,16 @@
+html {
+  font-size: 16px;
+  overflow-x: hidden; }
+
+body {
+  overflow-x: hidden; }
+
+.navbar {
+  padding: 40px 200px; }
+  .navbar .collapse a {
+    display: inline-block;
+    font-size: 1.25rem; }
+  .navbar .dropdown-item:hover {
+    color: #00CCFF; }
+
+/*# sourceMappingURL=navbar.css.map */
