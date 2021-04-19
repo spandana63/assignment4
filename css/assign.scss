@@ -8,38 +8,14 @@
 	align-items: center;
 	background-color: cyan;
 	position: relative;
-	padding: 215px 0px 215px 0px;
+	padding: 235px 0px 235px 0px;
+}
 	.banner-child
 	{
-		background-color: #FF5D33;
 		position: absolute;
 		z-index: 2;
-		padding: 188px 500px 188px 500px;
+	
 	}
-	.text
-	{
-		position: absolute;
-		z-index: 3;
-		top: 20%;
-	    left: 5%;
-	}
-	.coffee
-	{
-		position: absolute;
-		z-index: 3;
-	    bottom: 5%;
-	    left: 40%;
-	}
-
-	.chat
-	{
-		position: absolute;
-		z-index: 3;
-		bottom: 0%;
-	    right: 0%;
-	    height: 358px;
-	}
-}
 
 
 .content
@@ -241,6 +217,7 @@
 	{
 		padding:20px;
 	}
+
 	.content
 	{
 		padding:10px;
@@ -288,7 +265,10 @@
       	justify-content: space-around;
       	padding: 0px 15px;
 	}
-
+		#banner 
+	{
+		padding: 80px 0px;
+	}
 }
 
 @media (max-width: 1000px) and (min-width: 450px) {
@@ -298,5 +278,9 @@
 	}
 	.latest-works .geo-bg {
     width: 94%;
+	}
+		#banner 
+	{
+		padding: 180px 0px;
 	}
 }

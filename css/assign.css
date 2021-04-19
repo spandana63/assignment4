@@ -62,28 +62,11 @@ body {
   align-items: center;
   background-color: cyan;
   position: relative;
-  padding: 215px 0px 215px 0px; }
-  #banner .banner-child {
-    background-color: #FF5D33;
-    position: absolute;
-    z-index: 2;
-    padding: 188px 500px 188px 500px; }
-  #banner .text {
-    position: absolute;
-    z-index: 3;
-    top: 20%;
-    left: 5%; }
-  #banner .coffee {
-    position: absolute;
-    z-index: 3;
-    bottom: 5%;
-    left: 40%; }
-  #banner .chat {
-    position: absolute;
-    z-index: 3;
-    bottom: 0%;
-    right: 0%;
-    height: 358px; }
+  padding: 235px 0px 235px 0px; }
+
+.banner-child {
+  position: absolute;
+  z-index: 2; }
 
 .content {
   background-color: #F0F0F0;
@@ -257,13 +240,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0px 15px; } }
+    padding: 0px 15px; }
+
+  #banner {
+    padding: 80px 0px; } }
 @media (max-width: 1000px) and (min-width: 450px) {
   .testimonials .logos {
     margin-left: -95px;
     margin-top: -30px; }
 
   .latest-works .geo-bg {
-    width: 94%; } }
+    width: 94%; }
+
+  #banner {
+    padding: 180px 0px; } }
 
 /*# sourceMappingURL=assign.css.map */
