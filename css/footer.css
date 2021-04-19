@@ -37,6 +37,9 @@ ul.no-bullets {
     padding-top: 20px; }
 
   .end-logo {
-    display: none; } }
+    display: none; }
+
+  li {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=footer.css.map */
