@@ -98,8 +98,6 @@
 	padding-right: 20px;
 }
 
-//dont over write bootstrap classes
-
 .latest-works .row
 {
 	display: flex;
@@ -172,6 +170,77 @@
 	    border: solid 0px #33CCFF;
 	}
 }
+.contact-us
+{
+	padding: 20px;
+	i 
+	{
+	    color: #00CCFF;
+		margin-right: 7px;	
+	}
+	.img
+	{
+		width: 100%;
+		height: 100%;
+	}
+}
+.portfolio
+{
+	padding: 20px;
+	.menu-list 
+	{
+		padding: 0px;
+
+		li
+		{
+			display: inline;
+			padding: 10px;
+		}
+	}
+	i 
+	{
+	    color: #00CCFF;
+		margin-right: 7px;	
+	}
+	.all 
+	{
+		background-color: #00CCFF;
+	}
+	.img
+	{
+		width: 100%;
+		height: 100%;
+	}
+	.row 
+	{
+		padding: 10px;
+	}
+
+}
+
+
+
+
+.map-bg
+{
+	position: relative;
+	width: 100%;
+}
+.map
+{
+	position: absolute;
+    top: 18%;
+    left: 10%;
+    width: 80%;
+}
+.heading
+{
+	position: absolute;
+	top: 8%;
+	left: 6%;
+	font-weight: bold;
+}
+
 
 @media (max-width: 1024px)
 {

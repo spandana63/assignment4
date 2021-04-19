@@ -9,7 +9,7 @@ body {
   padding: 40px 200px; }
   .navbar .collapse a {
     display: inline-block;
-    font-size: 1.25rem; }
+    font-size: 1rem; }
   .navbar .dropdown-item:hover {
     color: #00CCFF; }
 
